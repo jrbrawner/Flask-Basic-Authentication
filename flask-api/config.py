@@ -25,6 +25,6 @@ class Config:
     COMPRESSOR_DEBUG = environ.get('COMPRESSOR_DEBUG')
 
     # Flask-SQLAlchemy
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'development.db')
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir + '/api/' 'development.db')
     SQLALCHEMY_ECHO = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False

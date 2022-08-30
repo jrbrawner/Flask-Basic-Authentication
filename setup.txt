@@ -1,3 +1,0 @@
-$env:FLASK_APP = "app"
-$env:FLASK_DEBUG = "1"
-$env:FLASK_ENV = "development"
